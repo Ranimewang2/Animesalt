@@ -1,0 +1,19 @@
+{
+  "name": "animesalt-api",
+  "version": "1.0.0",
+  "description": "Hindi/Dubbed Anime API scraping animesalt.ac — Vercel ready",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
